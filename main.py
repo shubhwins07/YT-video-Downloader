@@ -190,7 +190,327 @@ def download_window():
                 image=downloadd,
             )
 
-            diff_itags = [160, 133, 18, 135, 22, 337, 336, 335, 140, 251]
+
+            # 240p
+            twofortyp = customtkinter.CTkFrame(
+                master=dnlds,
+                width=425,
+                height=50,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                bg_color="#ecedff",
+                fg_color="#f8f9fe",
+            )
+            twofortypquality = customtkinter.CTkLabel(
+                master=twofortyp,
+                height=50,
+                width=50,
+                text="240p",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            twofortyptype = customtkinter.CTkLabel(
+                master=twofortyp,
+                height=50,
+                width=50,
+                text="mp4",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            twofortypdownld = customtkinter.CTkButton(
+                master=twofortyp,
+                width=35,
+                height=45,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                fg_color="#ecedff",
+                bg_color="#f8f9fe",
+                hover_color="#f8f9fe",
+                text="",
+                image=downloadd,
+            )
+
+            #360p
+            threesixtyp = customtkinter.CTkFrame(
+                master=dnlds,
+                width=425,
+                height=50,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                bg_color="#ecedff",
+                fg_color="#f8f9fe",
+            )
+            threesixtypquality = customtkinter.CTkLabel(
+                master=threesixtyp,
+                height=50,
+                width=50,
+                text="360p",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            threesixtyptype = customtkinter.CTkLabel(
+                master=threesixtyp,
+                height=50,
+                width=50,
+                text="mp4",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            threesixtypdownld = customtkinter.CTkButton(
+                master=threesixtyp,
+                width=35,
+                height=45,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                fg_color="#ecedff",
+                bg_color="#f8f9fe",
+                hover_color="#f8f9fe",
+                text="",
+                image=downloadd,
+            )
+            
+            #480p
+            foureightyp=customtkinter.CTkFrame(
+                master=dnlds,
+                width=425,
+                height=50,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                bg_color="#ecedff",
+                fg_color="#f8f9fe",
+            )
+            foureightypquality=customtkinter.CTkLabel(
+                master=foureightyp,
+                height=50,
+                width=50,
+                text="480p",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            foureightyptype = customtkinter.CTkLabel(
+                master=foureightyp,
+                height=50,
+                width=50,
+                text="mp4",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            foureightypdownld = customtkinter.CTkButton(
+                master=foureightyp,
+                width=35,
+                height=45,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                fg_color="#ecedff",
+                bg_color="#f8f9fe",
+                hover_color="#f8f9fe",
+                text="",
+                image=downloadd,
+            )  
+
+            #720p
+            sevententyp=customtkinter.CTkFrame(
+                master=dnlds,
+                width=425,
+                height=50,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                bg_color="#ecedff",
+                fg_color="#f8f9fe",
+            )
+            seventwentypquality=customtkinter.CTkLabel(
+                master=sevententyp,
+                height=50,
+                width=50,
+                text="720p",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            seventwentyptype = customtkinter.CTkLabel(
+                master=sevententyp,
+                height=50,
+                width=50,
+                text="mp4",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            seventwentypdownld = customtkinter.CTkButton(
+                master=sevententyp,
+                width=35,
+                height=45,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                fg_color="#ecedff",
+                bg_color="#f8f9fe",
+                hover_color="#f8f9fe",
+                text="",
+                image=downloadd,
+            )
+            
+            #1080p
+            teneightyp=customtkinter.CTkFrame(
+                master=dnlds,
+                width=425,
+                height=50,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                bg_color="#ecedff",
+                fg_color="#f8f9fe",
+            )
+            teneightypquality=customtkinter.CTkLabel(
+                master=teneightyp,
+                height=50,
+                width=50,
+                text="1080p",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            teneightyptype=customtkinter.CTkLabel(
+                master=teneightyp,
+                height=50,
+                width=50,
+                text="webm",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            teneightypdownld = customtkinter.CTkButton(
+                master=teneightyp,
+                width=35,
+                height=45,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                fg_color="#ecedff",
+                bg_color="#f8f9fe",
+                hover_color="#f8f9fe",
+                text="",
+                image=downloadd,
+            )                      
+            
+            #1440p
+            fourteenfortyp = customtkinter.CTkFrame(
+                master=dnlds,
+                width=425,
+                height=50,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                bg_color="#ecedff",
+                fg_color="#f8f9fe",
+            )
+            fourteenfortypquality = customtkinter.CTkLabel(
+                master=fourteenfortyp,
+                height=50,
+                width=50,
+                text="1440p",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            fourteenfortyptype = customtkinter.CTkLabel(
+                master=fourteenfortyp,
+                height=50,
+                width=50,
+                text="webm",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            fourteenfortypdownld = customtkinter.CTkButton(
+                master=fourteenfortyp,
+                width=35,
+                height=45,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                fg_color="#ecedff",
+                bg_color="#f8f9fe",
+                hover_color="#f8f9fe",
+                text="",
+                image=downloadd,
+            )         
+            
+            
+            #2160p
+            twentyonesixtyp=customtkinter.CTkFrame(
+                master=dnlds,
+                width=425,
+                height=50,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                bg_color="#ecedff",
+                fg_color="#f8f9fe",
+            )
+            twentyonesixtypquality=customtkinter.CTkLabel(
+                master=twentyonesixtyp,
+                height=50,
+                width=50,
+                text="2160p",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            twentyonesixtyptype = customtkinter.CTkLabel(
+                master=twentyonesixtyp,
+                height=50,
+                width=50,
+                text="webm",
+                bg_color="#f8f9fe",
+                fg_color="#f8f9fe",
+                text_color="black",
+                font=("Poppins Black", 15),
+            )
+            twentyonesixtyppdownld = customtkinter.CTkButton(
+                master=twentyonesixtyp,
+                width=35,
+                height=45,
+                corner_radius=10,
+                border_color="white",
+                border_width=2,
+                fg_color="#ecedff",
+                bg_color="#f8f9fe",
+                hover_color="#f8f9fe",
+                text="",
+                image=downloadd,
+            )
+            
+            
+            
+            
+            diff_itags = [160, 133, 18, 135, 22, 335, 336, 337, 313, 271, 248, 140, 251]
             results = []
 
             # filling results
@@ -203,10 +523,45 @@ def download_window():
             print(results)
 
             if results[0] == True:
-                onefourfourp.pack(pady=0)
+                onefourfourp.pack(pady=5)
                 onefourfourpquality.place(relx=0.01)
                 onefourfourptype.place(relx=0.43)
                 onefourfourpdownld.place(relx=0.86, rely=0.05)
+            if results[1] == True:
+                twofortyp.pack(pady=5)
+                twofortypquality.place(relx=0.01)
+                twofortyptype.place(relx=0.43)
+                twofortypdownld.place(relx=0.86, rely=0.05)
+            if results[2] == True:
+                threesixtyp.pack(pady=5)
+                threesixtypquality.place(relx=0.01)
+                threesixtyptype.place(relx=0.43)
+                threesixtypdownld.place(relx=0.86, rely=0.05)
+            if results[3] == True:
+                foureightyp.pack(pady=5)
+                foureightypquality.place(relx=0.01)
+                foureightyptype.place(relx=0.43)
+                foureightypdownld.place(relx=0.86, rely=0.05)
+            if results[4] == True:
+                sevententyp.pack(pady=5)
+                seventwentypquality.place(relx=0.01)
+                seventwentyptype.place(relx=0.43)
+                seventwentypdownld.place(relx=0.86, rely=0.05)
+            if results[5] == True or results[10]==True:
+                teneightyp.pack(pady=5)
+                teneightypquality.place(relx=0.01)
+                teneightyptype.place(relx=0.43)
+                teneightypdownld.place(relx=0.86, rely=0.05)
+            if results[6] == True or results[9] == True:
+                fourteenfortyp.pack(pady=5)
+                fourteenfortypquality.place(relx=0.01)
+                fourteenfortyptype.place(relx=0.43)
+                fourteenfortypdownld.place(relx=0.86, rely=0.05)
+            if results[7] == True or results[8] == True:
+                twentyonesixtyp.pack(pady=5)
+                twentyonesixtypquality.place(relx=0.01)
+                twentyonesixtyptype.place(relx=0.43)
+                twentyonesixtyppdownld.place(relx=0.86, rely=0.05)
 
             tryagain = customtkinter.CTkButton(
                 master=dnld,

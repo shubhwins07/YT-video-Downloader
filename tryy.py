@@ -3,7 +3,7 @@ import os
 
 user = os.getlogin()
 
-yt = YouTube("https://youtu.be/MatGDjb4hk8?si=d3u1OfhlzpfiQNhs")
+yt = YouTube("https://youtu.be/djV11Xbc914?si=VXOPaejbEzEWsuo6")
 
 def check_if_avail(itagg):
     
@@ -11,16 +11,4 @@ def check_if_avail(itagg):
     return aud
 
 
-diff_itags = [160,133,18,135,22,337,336,335,140,251]
-results = []
-            
-#in the scroll widget
-for itaag in diff_itags:
-    print(itaag)
-    lol = check_if_avail(itaag)
-    if lol == None:
-        results.append(False)
-    else:
-        results.append(True)
-        
-print(results)
+print(yt.streams.filter(res="2160p"))
